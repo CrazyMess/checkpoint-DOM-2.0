@@ -1,0 +1,26 @@
+.container{
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.container #color-box{
+    margin: 1rem auto;
+    background-color: #e7e7e7;
+    width: 500px;
+    height: 300px;
+    transition: .3s ease-in-out;
+}
+#change-color-btn{
+    border: none;
+    box-shadow: 2px 5px 15px rgb(92, 92, 92);
+    border-radius: 7px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease-in, padding 0.2s ease-in;
+}
+
+#change-color-btn:hover{
+    background-color: rgb(1, 177, 1);
+    padding: 12px 17px;
+}
